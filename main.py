@@ -5,10 +5,10 @@ import numpy as np
 
 
 cnxn_str = ("Driver={SQL Server};"
-            "Server=192.168.1.207,1433;"
+            "Server=**.**.**.**,1433;"
             "Database=mldata;"
             "UID=rudra;"
-            "PWD=MlIsFun!;"
+            "PWD=*****;"
             "Trusted_Connection=no;")
 
 cnxn = pyodbc.connect(cnxn_str)
